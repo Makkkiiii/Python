@@ -3,10 +3,10 @@ marks = [60,67,45,87,90,78,84,38,13,56]
 # A
 total = 0
 count = 0
-for mark in marks:
+for i in marks:
     if mark >= 60:
         count += 1
-        total += mark
+        total += i
 
 # B
 is_score_13 = 13 in marks
