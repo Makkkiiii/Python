@@ -37,3 +37,58 @@ print()
 ch = 'SUMAN'
 for i in range(5, 0, -1):
     print(ch[:i].rjust(5))
+
+'''
+1
+22
+333
+4444
+55555
+
+*
+**
+***
+****
+*****
+
+*****
+****
+***
+**
+*
+
+   *
+  **
+ ***
+****
+
+*****
+ ****
+  ***
+   **
+    *
+
+S
+SU
+SUM
+SUMA
+SUMAN
+
+SUMAN
+SUMA
+SUM
+SU
+S
+
+    S
+   SU
+  SUM
+ SUMA
+SUMAN
+
+SUMAN
+ SUMA
+  SUM
+   SU
+    S
+'''
