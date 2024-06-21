@@ -11,7 +11,6 @@ while n1 < num:
 
 
 #FOR LOOP
-
 num = int(input("Enter the number: "))
 n1, n2 = 0, 1
 for i in range(num):
