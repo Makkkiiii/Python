@@ -22,3 +22,17 @@ if sum == int(num):
     print("Armstrong")
 else:
     print("Not Armstrong")
+
+#For n numbers
+
+arm = int(input("Enter the number: ")
+sum = 0
+l = len(arm)
+
+for i in arm:
+    n = int(i)
+    sum = sum + n ** l
+if sum == int(arm):
+    print("Armstrong")
+else:
+    print("Not Armstrong")
