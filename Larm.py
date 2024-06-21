@@ -9,3 +9,16 @@ if sum == a:
     print("Armstrong")
 else:
     print("Not Armstrong")
+
+
+#FOR LOOP
+
+# Armstrong or not
+num = input("Enter the number: ")
+sum = 0
+for digit in num:
+    sum += int(digit) ** 3
+if sum == int(num):
+    print("Armstrong")
+else:
+    print("Not Armstrong")
