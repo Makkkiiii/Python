@@ -1,4 +1,6 @@
 # Armstrong or not
+
+#WHILE LOOP
 num = int(input("Enter the number: "))
 sum = 0
 a = num
@@ -12,12 +14,10 @@ else:
 
 
 #FOR LOOP
-
-# Armstrong or not
 num = input("Enter the number: ")
 sum = 0
-for digit in num:
-    sum += int(digit) ** 3
+for i in num:
+    sum += int(i) ** 3
 if sum == int(num):
     print("Armstrong")
 else:
