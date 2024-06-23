@@ -3,3 +3,14 @@
 num = int(input("Enter the number: "))
 for i in range(10,0,-1):
     print(num,"*",i,"=",num*i)
+
+
+#While loop
+
+number = int(input("Enter the number: "))
+multiplier = 10
+
+while multiplier >= 1:
+    result = number * multiplier
+    print(f"{number} * {multiplier} = {result}")
+    multiplier -= 1
