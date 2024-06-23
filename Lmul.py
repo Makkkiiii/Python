@@ -7,10 +7,10 @@ for i in range(10,0,-1):
 
 #While loop
 
-number = int(input("Enter the number: "))
+n = int(input("Enter the number: "))
 i = 10
 
 while i >= 1:
-    result = number * i
-    print(f"{number} * {i} = {result}")
+    result = n * i
+    print(f"{n} * {i} = {result}")
     i -= 1
