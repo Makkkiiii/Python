@@ -36,3 +36,4 @@ while index < len(marks):
 print("A. 60 or more: ", count)
 print("A. Sum: ", total)
 print("B. Who scored 13: ", is_score_13)
+
