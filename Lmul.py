@@ -8,9 +8,9 @@ for i in range(10,0,-1):
 #While loop
 
 number = int(input("Enter the number: "))
-multiplier = 10
+i = 10
 
-while multiplier >= 1:
-    result = number * multiplier
-    print(f"{number} * {multiplier} = {result}")
-    multiplier -= 1
+while i >= 1:
+    result = number * i
+    print(f"{number} * {i} = {result}")
+    i -= 1
