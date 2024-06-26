@@ -1,6 +1,11 @@
 sum = 0
-n = float(input("Enter a number: ")) 
-while n != 0:
-    sum += n
-    n = float(input("Enter a number: "))  
+while True:  
+    n = 1  
+    while n != 0: 
+        n = float(input("Enter a number (0 to exit): "))
+        if n == 0:
+            break  
+        sum += n
+    break  
+
 print(f"The sum is {sum}")
