@@ -11,10 +11,10 @@ print("No. of vowel = ", count)
 ch = input("Enter the string: ")
 
 count = 0
-index = 0 
-while index < len(ch):
-    if ch[index].lower() in 'aeiou':  
+i = 0 
+while i < len(ch):
+    if ch[i].lower() in 'aeiou':  
         count += 1
-    index += 1  
+    i += 1  
 
 print("The number of vowels are: ", count)
