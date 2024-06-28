@@ -29,3 +29,19 @@ for i in range(1, 6):
     for k in range(i, 0, -1):
         print(k, end=" ")
     print()
+
+#WHILE LOOP
+i = 1
+while i < 6:
+    j = 0
+    while j < (5 - i):
+        print(" ", end=" ")
+        j += 1
+    
+    k = i
+    while k > 0:
+        print(k, end=" ")
+        k -= 1
+    
+    print()
+    i += 1
