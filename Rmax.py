@@ -6,3 +6,19 @@ def find_max(lst):
 
 a = [3, 2, 1, 4, 5]
 print(find_max(a))
+
+
+
+#LOOP
+
+def max_list(a,m,i):
+    if i==len(a):
+        return m
+    else:
+        if a[i]>m:
+            m = a[i]
+        return max_list(a,m,i+1)
+
+a = [3,1,4,6,3]
+m = max_list(a,a[0],0)
+print("Largest  = ", m)
